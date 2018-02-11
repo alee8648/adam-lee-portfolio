@@ -1,9 +1,29 @@
 <main id="body-main" class="container">
 	<div class="row">
 		<div class="col-md-9">
-				<h1>{{title}}</h1>
-			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nisi quos quia ea commodi saepe, animi fugiat veniam, voluptatum quidem mollitia! Exercitationem tenetur ipsam optio minima inventore dolore quia magnam, modi voluptatum, ducimus eaque vel ipsa vero. Nihil recusandae ratione facere, obcaecati possimus, laboriosam nulla rerum in quisquam, architecto cum!</p>
+			<h1>{{title}}</h1>
+		    <p>{{intro}}</p>
 		</div>
 	</div>
-	
+	<div class="row">
+		<div class="col-md-9">
+			<h2>Experience</h2>	
+			{{#each roles}}
+				{{> role}}
+			{{/each}}
+			<h2>Education</h2>
+			{{#each education}}
+				{{> education}}
+			{{/each}}
+			<h2>Skills</h2>
+			{{#each skills}}
+				{{> skills}}
+			{{/each}}
+		</div>
+		<aside class="col-md-3">
+			<h3>Contact Details</h3>
+			Call me on: <a href="tel:{{contact.phoneInternational}}">{{contact.phoneLocal}}</a><br>
+			Send an email to <a href="mailto:{{contact.email}}">{{contact.email}}</a>
+		</aside>
+	</div>
 </main>

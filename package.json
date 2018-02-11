@@ -1,0 +1,18 @@
+{
+  "name": "adam-portfolio",
+  "version": "1.0.0",
+  "description": "Adam Lee's professional portfolio page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "adam-portfolio"
+  },
+  "author": "Adam Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

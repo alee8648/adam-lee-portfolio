@@ -1,7 +1,5 @@
 .sass-cache/
 bower_components/
 node_modules/
-public/js
-public/css
 .DS_Store
 .jshintrc

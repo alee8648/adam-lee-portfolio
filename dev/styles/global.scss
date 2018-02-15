@@ -2,6 +2,7 @@
 
 body {
 	background-color: $grey;
+	font-family: $fontSans;
 }
 
 .responsive {
@@ -25,6 +26,7 @@ body {
 .page-heading,
 .block-heading {
 	color: $dark;
+	font-family: $fontSerif;
 	margin-bottom: 20px;
 }
 

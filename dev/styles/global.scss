@@ -1,7 +1,7 @@
 /*****		Global Styles		*****/
 
 body {
-	background-color: $grey;
+	background-color: $offWhite;
 	font-family: $fontSans;
 }
 
@@ -18,15 +18,15 @@ body {
 
 .content-paragraph--highlight {
 	font-size: 1.2em;
-	color: $dark;
+	color: $font;
 }
 
 /*****		Headings			*****/
 
 .page-heading,
 .block-heading {
-	color: $dark;
 	font-family: $fontSerif;
+	color: $bold;
 	margin-bottom: 20px;
 }
 

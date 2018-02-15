@@ -4,7 +4,8 @@ module.exports = {
 	"contact" : {
 		"phoneLocal" : "07913041037",
 		"phoneInternational" : "+447913041037",
-		"email"	: "alee8648@gmail.com"
+		"email"	: "alee8648@gmail.com",
+		"CVPDF"	: 'adam-lee-curriculum-vitae2018.pdf'
 	},
 	"roles" : [
 		{

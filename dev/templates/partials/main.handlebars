@@ -1,24 +1,30 @@
 <main id="body-main" class="container">
-	<div class="row">
+	<div class="row intro-profile">
 		<div class="col-md-9">
-			<h1>{{title}}</h1>
-		    <p>{{intro}}</p>
+			<h1 class="page-heading">{{title}}</h1>
+		    <p class="content-paragraph--highlight">{{intro}}</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-9">
-			<h2>Experience</h2>	
-			{{#each roles}}
-				{{> role}}
-			{{/each}}
-			<h2>Education</h2>
-			{{#each education}}
-				{{> education}}
-			{{/each}}
-			<h2>Skills</h2>
-			{{#each skills}}
-				{{> skills}}
-			{{/each}}
+			<section class="block-section">
+				<h2 class="block-heading" id="experience">Experience</h2>	
+				{{#each roles}}
+					{{> role}}
+				{{/each}}
+			</section>
+			<section class="block-section">
+				<h2 class="block-heading" id="education">Education</h2>
+				{{#each education}}
+					{{> education}}
+				{{/each}}
+			</section>
+			<section class="block-section">
+				<h2 class="block-heading" id="skills">Skills</h2>
+				{{#each skills}}
+					{{> skills}}
+				{{/each}}
+			</section>
 		</div>
 		<aside class="col-md-3">
 			<h3>Contact Details</h3>
@@ -26,4 +32,10 @@
 			Send an email to <a href="mailto:{{contact.email}}">{{contact.email}}</a>
 		</aside>
 	</div>
+		<section class="block-section">
+			<h2 class="block-heading" id="case-studies">Case Studies</h2>
+			{{#each caseStudies}}
+				{{> casestudy}}
+			{{/each}}
+		</section>
 </main>

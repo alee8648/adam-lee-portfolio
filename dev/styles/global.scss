@@ -1,3 +1,51 @@
-body {
+/*****		Global Styles		*****/
 
+body {
+	background-color: $grey;
+}
+
+.responsive {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*****		Content Styling		*****/
+
+.content-paragraph {
+
+}
+
+.content-paragraph--highlight {
+	font-size: 1.2em;
+	color: $dark;
+}
+
+/*****		Headings			*****/
+
+.page-heading,
+.block-heading {
+	color: $dark;
+	margin-bottom: 20px;
+}
+
+.block-heading__no-margin {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*****		Layout				*****/
+
+.content-row {
+	padding-bottom: 30px;
+}
+
+.block-section {
+	background-color: $neutral;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.points-list {
+	list-style-type: circle;
 }

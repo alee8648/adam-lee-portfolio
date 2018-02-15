@@ -5,4 +5,7 @@
 // Import bootstrap.scss
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
+@import 'variables';
 @import 'global';
+@import 'home';
+@import 'casestudies';

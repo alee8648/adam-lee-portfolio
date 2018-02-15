@@ -38,14 +38,23 @@ body {
 /*****		Layout				*****/
 
 .content-row {
-	padding-bottom: 30px;
-}
-
-.block-section {
 	background-color: $neutral;
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 	margin-bottom: 20px;
 	padding: 15px;
+}
+
+.block-section {
+	position: relative;
+}
+
+.block-section__anchor {
+	position: absolute;
+	top: 0;
+	left: -50px;
+	font-size: $fzH2;
+	line-height: $fzH2;
+	color: $bold;
 }
 
 .points-list {

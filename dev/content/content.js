@@ -163,5 +163,13 @@ module.exports = {
 		       "French (good)"
 			]
 		}
+	],
+	"caseStudies"		: [
+		{
+			"title"			: "LEGO Chat bot",
+			"description"	: "<p>For Christmas 2017, LEGO wanted to utilise Facebook Chatbot technology to create a tool to assist LEGO newbies in finding the ideal brick-based gift for a loved one. Ralph the Gift Bot was 'born', and by the end of the Christmas season he had helped thousands of confused shoppers in 5 international markets pinpoint the perfect present. Following his success, LEGO have integrated Ralph into their ongoing sales, marketing, and product discovery strategies - <a href='https://www.messenger.com/t/LEGO' target='blank'>you can talk to him now!</a></p><p>As the main developer on this project, I worked mostly independently to create a robust API in <strong>Node.js and Express</strong> that would act as a bridge between the Chatfuel chatbot service and LEGO's store API. By regularly ingesting and caching data from the LEGO store I was able to avoid overloading the store API during peak times whilst maintaining accurate stock availability data in the bot. I also handled the <strong>unit testing</strong> of the bot using Tap for Node to ensure only valid content would be sent to the finnicky chatbot client.</p><p>I played an important role in <strong>client communications</strong> from an early stage. I was involved with client workshops for the bot content, communicating technical requirements with the LEGO API team, and working with the 3rd party Chatfuel service to ensure our needs were met. I was able to bring my previous <strong>copywriting</strong> experience to the role and actually wrote much of the copy that was used for the Christmas and 'season-neutral' versions of the bot. This also extended to writing up the project when the wider team chose to push the project for awards. </p><p>From this project I took a keen understanding of API development and advanced knowledge of emerging chatbot technology. It also left me with a desire to work more closely with clients, as it was rewarding that my input was integral to the project on more levels than just the technical.</p>",
+			"image"			: "lego-chatbot-screengrab.jpg",
+			"imageAlt"		: "A conversation with Ralph the LEGO gift bot"
+		}
 	]
 };

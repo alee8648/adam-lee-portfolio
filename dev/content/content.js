@@ -111,7 +111,8 @@ module.exports = {
 			"description"			: "'A' Level, 'AS' Level",
 			"date"					: "Sep 2007 - Jul 2009",
 			"points"				: [
-				"'A' grade achieved in Maths, Spanish, French, and English Language at 'AS' and 'A' Level, 'A' grade in Critical Thinking at 'AS' Level (prior to introduction of A* grades)"
+				"'A' Levels - AAAA Maths, Spanish, French, English Language (prior to introduction of A* grades)",
+				"'AS' Level - A Critical Thinking"
 			]
 		}
 	],

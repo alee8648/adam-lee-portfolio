@@ -1,47 +1,84 @@
-<main id="body-main" class="container">
-	<div class="row intro-profile">
-		<div class="col-md-9">
-			<h1 class="page-heading">{{title}}</h1>
-		    <p class="content-paragraph--highlight">{{intro}}</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-9">
-			<section class="block-section">
-				<a href="#experience" class="block-section__anchor">#</a>
-				<h2 class="block-heading" id="experience">Experience</h2>
-				{{#each roles}}
-					{{> role}}
-				{{/each}}
-			</section>
-			<section class="block-section">
-				<a href="#education" class="block-section__anchor">#</a>
-				<h2 class="block-heading" id="education">Education</h2>
-				{{#each education}}
-					{{> education}}
-				{{/each}}
-			</section>
-			<section class="block-section">
-				<a href="#skills" class="block-section__anchor">#</a>
-				<h2 class="block-heading" id="skills">Skills</h2>
-				{{#each skills}}
-					{{> skills}}
-				{{/each}}
-			</section>
-		</div>
-		<aside class="col-md-3">
-			<h3>Contact Details</h3>
-			Call me on: <a href="tel:{{contact.phoneInternational}}">{{contact.phoneLocal}}</a><br>
-			Send an email to <a href="mailto:{{contact.email}}">{{contact.email}}</a><br>
-			<a href="./files/{{contact.CVPDF}}" download>Download CV as PDF</a>
+<main id="body-main">
+	<div class="container">
+		<div class="row intro-profile">
+			<div class="col-md-9">
+				<h1 class="page-heading">{{title}}</h1>
+			    <p class="content-paragraph--highlight">{{intro}}</p>
+			    <p class="neutral">Neutral</p>
+			    <p class="pale">Pale</p>
+			    <p class="bold">Bold</p>
+			    <p class="highlight">Highlight</p>
+			    <p class="dark">Dark</p>
 
-		</aside>
+			</div>
+		</div>
 	</div>
-		<section class="block-section">
-			<a href="#case-studies" class="block-section__anchor">#</a>
-			<h2 class="block-heading" id="case-studies">Case Studies</h2>
-			{{#each caseStudies}}
-				{{> casestudy}}
-			{{/each}}
-		</section>
+	<div class="block-section-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<section class="block-section">
+						<a href="#experience" class="block-section__anchor">#</a>
+						<h2 class="block-heading" id="experience">Experience</h2>
+						{{#each roles}}
+							{{> role}}
+						{{/each}}
+					</section>
+				</div>
+				<aside class="col-md-3">
+					<h3 class="block-heading">Contact</h3>
+					Call me on: <a href="tel:{{contact.phoneInternational}}">{{contact.phoneLocal}}</a><br>
+					Send an email to <a href="mailto:{{contact.email}}">{{contact.email}}</a><br>
+					<a href="./files/{{contact.CVPDF}}" download>Download CV as PDF</a>
+
+				</aside>
+			</div>
+		</div>
+	</div>
+	<div class="block-section-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<section class="block-section">
+						<a href="#education" class="block-section__anchor">#</a>
+						<h2 class="block-heading" id="education">Education</h2>
+						{{#each education}}
+							{{> education}}
+						{{/each}}
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block-section-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<section class="block-section">
+						<a href="#skills" class="block-section__anchor">#</a>
+						<h2 class="block-heading" id="skills">Skills</h2>
+						{{#each skills}}
+							{{> skills}}
+						{{/each}}
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="block-section-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<section class="block-section">
+						<a href="#case-studies" class="block-section__anchor">#</a>
+						<h2 class="block-heading" id="case-studies">Case Studies</h2>
+						{{#each caseStudies}}
+							{{> casestudy}}
+						{{/each}}
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
 </main>

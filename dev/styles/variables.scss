@@ -1,16 +1,33 @@
 // Colours
-$highlight: rgba(72, 190, 255, 1);
-$dark: rgba(98, 144, 195, 1);
-$grey: rgba(194, 231, 218, 1);
-$bold: #337ab7;
-$neutral: rgba(241, 255, 231, 1);
-$offWhite: rgba(250, 250, 250, 1);
+// $highlight: rgba(72, 190, 255, 1);
+// $dark: rgba(98, 144, 195, 1);
+// $pale: rgba(194, 231, 218, 1);
+// $bold: #337ab7;
+// $neutral: rgba(241, 255, 231, 1);
 
-$font : #42c9c9;
+// $font : #42c9c9;
+
+
+// As hex codes */
+
+$neutral: #fff;
+$pale: #C4D3F3;
+$bold: #304074;
+$highlight: #172657;
+$dark: #08143C;
+
+$font : $dark;
+
+$pale1: #C4D3F3;
+$pale2: #B4C3E3;
+$pale3: #A4B3D3;
+$pale4: #94A3E3;
+
 
 // Font
 $fontSerif: Bookman;
 $fontSans: verdana;
+$fontMono: courier;
 
 // Font sizes
 $fzH2: 30px; 

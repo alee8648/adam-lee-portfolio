@@ -1,7 +1,7 @@
 /*****		Global Styles		*****/
 
 body {
-	background-color: $offWhite;
+	background-color: $neutral;
 	font-family: $fontSans;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .page-heading,
 .block-heading {
-	font-family: $fontSerif;
+	font-family: $fontMono;
 	color: $bold;
 	margin-bottom: 20px;
 }
@@ -37,15 +37,52 @@ body {
 
 /*****		Layout				*****/
 
-.content-row {
+.neutral {
 	background-color: $neutral;
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.pale {
+	background-color: $pale;
+	color: white;
+}
+.bold {
+	background-color: $bold;
+	color: white;
+}
+.highlight {
+	background-color: $highlight;
+	color: white;
+}
+.dark {
+	background-color: $dark;
+	color: white;
+}
+
+.content-row {
+	// background-color: $pale;
+	// box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 	margin-bottom: 20px;
 	padding: 15px;
 }
 
 .block-section {
 	position: relative;
+	// background-color: $pale;
+}
+
+.block-section-1 {
+	background-color: $pale1;
+}
+.block-section-2 {
+	background-color: $pale2;
+
+}
+.block-section-3 {
+	background-color: $pale3;
+
+}
+.block-section-4 {
+	background-color: $pale4;
+
 }
 
 .block-section__anchor {
